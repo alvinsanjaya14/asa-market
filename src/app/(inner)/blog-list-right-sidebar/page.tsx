@@ -26,10 +26,8 @@ export default function BlogGridPage() {
 
     return (
         <div className="demo-one">
-            {/* Header */}
             <HeaderOne />
 
-            {/* Breadcrumb Area */}
             <div className="rts-navigation-area-breadcrumb bg_light-1">
                 <div className="container">
                     <div className="row">
@@ -46,7 +44,6 @@ export default function BlogGridPage() {
                 </div>
             </div>
 
-            {/* Separator */}
             <div className="section-seperator bg_light-1">
                 <div className="container">
                     <hr className="section-seperator" />
@@ -103,47 +100,32 @@ export default function BlogGridPage() {
                                 <div className="blog-sidebar-single-wized with-title">
                                     <h4 className="title">Categories</h4>
                                     <div className="category-main-wrapper">
-                                        {/* single category area start */}
                                         <div className="single-category-area">
                                             <p>Baking Material</p>
                                         </div>
-                                        {/* single category area end */}
-                                        {/* single category area start */}
                                         <div className="single-category-area">
                                             <p>Bread and Juice</p>
                                         </div>
-                                        {/* single category area end */}
-                                        {/* single category area start */}
                                         <div className="single-category-area">
                                             <p>Clothing &amp; Beauty</p>
                                         </div>
-                                        {/* single category area end */}
-                                        {/* single category area start */}
                                         <div className="single-category-area">
                                             <p>Fresh Vegetable</p>
                                         </div>
-                                        {/* single category area end */}
-                                        {/* single category area start */}
                                         <div className="single-category-area">
                                             <p>Fresh Seafood</p>
                                         </div>
-                                        {/* single category area end */}
-                                        {/* single category area start */}
                                         <div className="single-category-area">
                                             <p>Milks and Daires</p>
                                         </div>
-                                        {/* single category area end */}
-                                        {/* single category area start */}
                                         <div className="single-category-area">
                                             <p>Wine &amp; Drinks</p>
                                         </div>
-                                        {/* single category area end */}
                                     </div>
                                 </div>
                                 <div className="blog-sidebar-single-wized with-title">
                                     <h4 className="title">Latest Post</h4>
                                     <div className="latest-post-small-area-wrapper">
-                                        {/* single latest post */}
                                         <div className="single-latest-post-area">
                                             <a href="blog-details.html" className="thumbnail">
                                                 <img src="/assets/images/blog/thumb/01.jpg" alt="thumbnail" />
@@ -160,8 +142,6 @@ export default function BlogGridPage() {
                                                 </a>
                                             </div>
                                         </div>
-                                        {/* single latest post end */}
-                                        {/* single latest post */}
                                         <div className="single-latest-post-area">
                                             <a href="blog-details.html" className="thumbnail">
                                                 <img src="/assets/images/blog/thumb/02.jpg" alt="thumbnail" />
@@ -179,8 +159,6 @@ export default function BlogGridPage() {
                                                 </a>
                                             </div>
                                         </div>
-                                        {/* single latest post end */}
-                                        {/* single latest post */}
                                         <div className="single-latest-post-area">
                                             <a href="blog-details.html" className="thumbnail">
                                                 <img src="/assets/images/blog/thumb/03.jpg" alt="thumbnail" />
@@ -197,97 +175,64 @@ export default function BlogGridPage() {
                                                 </a>
                                             </div>
                                         </div>
-                                        {/* single latest post end */}
                                     </div>
                                 </div>
                                 <div className="blog-sidebar-single-wized with-title">
                                     <h4 className="title">Tags</h4>
                                     <div className="tags-area-blog-short-main">
-                                        {/* single */}
                                         <button className="single-category">Shampoo</button>
-                                        {/* single end */}
-                                        {/* single */}
                                         <button className="single-category">Butter</button>
-                                        {/* single end */}
-                                        {/* single */}
                                         <button className="single-category">Birthday</button>
-                                        {/* single end */}
-                                        {/* single */}
                                         <button className="single-category">Gifts</button>
-                                        {/* single end */}
-                                        {/* single */}
                                         <button className="single-category">Facial</button>
-                                        {/* single end */}
-                                        {/* single */}
                                         <button className="single-category">Green</button>
-                                        {/* single end */}
-                                        {/* single */}
                                         <button className="single-category">Lotion</button>
-                                        {/* single end */}
-                                        {/* single */}
                                         <button className="single-category">Scrub</button>
-                                        {/* single end */}
                                     </div>
                                 </div>
                                 <div className="blog-sidebar-single-wized with-title">
                                     <h4 className="title">Instagram Posts</h4>
                                     <div className="instagram-post-main-wrapper">
-                                        {/* single-instagram-post */}
                                         <a href="#">
                                             <div className="single-instagram-post">
                                                 <img src="/assets/images/blog/thumb/04.jpg" alt="post" />
                                             </div>
                                         </a>
-                                        {/* single-instagram-post end */}
-                                        {/* single-instagram-post */}
                                         <a href="#">
                                             <div className="single-instagram-post">
                                                 <img src="/assets/images/blog/thumb/05.jpg" alt="post" />
                                             </div>
                                         </a>
-                                        {/* single-instagram-post end */}
-                                        {/* single-instagram-post */}
                                         <a href="#">
                                             <div className="single-instagram-post">
                                                 <img src="/assets/images/blog/thumb/06.jpg" alt="post" />
                                             </div>
                                         </a>
-                                        {/* single-instagram-post end */}
-                                        {/* single-instagram-post */}
                                         <a href="#">
                                             <div className="single-instagram-post">
                                                 <img src="/assets/images/blog/thumb/07.jpg" alt="post" />
                                             </div>
                                         </a>
-                                        {/* single-instagram-post end */}
-                                        {/* single-instagram-post */}
                                         <a href="#">
                                             <div className="single-instagram-post">
                                                 <img src="/assets/images/blog/thumb/08.jpg" alt="post" />
                                             </div>
                                         </a>
-                                        {/* single-instagram-post end */}
-                                        {/* single-instagram-post */}
                                         <a href="#">
                                             <div className="single-instagram-post">
                                                 <img src="/assets/images/blog/thumb/09.jpg" alt="post" />
                                             </div>
                                         </a>
-                                        {/* single-instagram-post end */}
-                                        {/* single-instagram-post */}
                                         <a href="#">
                                             <div className="single-instagram-post">
                                                 <img src="/assets/images/blog/thumb/10.jpg" alt="post" />
                                             </div>
                                         </a>
-                                        {/* single-instagram-post end */}
-                                        {/* single-instagram-post */}
                                         <a href="#">
                                             <div className="single-instagram-post">
                                                 <img src="/assets/images/blog/thumb/11.jpg" alt="post" />
                                             </div>
                                         </a>
-                                        {/* single-instagram-post end */}
                                     </div>
                                 </div>
                                 <div className="blog-sidebar-single-wized with-add bg_image">
@@ -315,7 +260,6 @@ export default function BlogGridPage() {
             </div>
 
 
-            {/* Footer */}
             <ShortService />
             <FooterOne />
         </div>

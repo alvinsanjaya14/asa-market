@@ -26,10 +26,8 @@ export default function BlogGridPage() {
 
     return (
         <div className="demo-one">
-            {/* Header */}
             <HeaderOne />
 
-            {/* Breadcrumb Area */}
             <div className="rts-navigation-area-breadcrumb bg_light-1">
                 <div className="container">
                     <div className="row">
@@ -46,14 +44,12 @@ export default function BlogGridPage() {
                 </div>
             </div>
 
-            {/* Separator */}
             <div className="section-seperator bg_light-1">
                 <div className="container">
                     <hr className="section-seperator" />
                 </div>
             </div>
 
-            {/* Blog Grid Section */}
             <div className="rts-blog-area rts-section-gap bg_white bg_gradient-tranding-items">
                 <div className="container">
                     <div className="row g-5">
@@ -73,7 +69,6 @@ export default function BlogGridPage() {
                         ))}
                     </div>
 
-                    {/* Pagination */}
                     <div className="row mt--50">
                         <div className="col-lg-12">
                             <div className="pagination-area-main-wrappper">
@@ -102,7 +97,6 @@ export default function BlogGridPage() {
                 </div>
             </div>
 
-            {/* Footer */}
             <ShortService />
             <FooterOne />
         </div>

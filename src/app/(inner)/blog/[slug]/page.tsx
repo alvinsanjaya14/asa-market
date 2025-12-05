@@ -24,7 +24,6 @@ export default function Home() {
       <div className="blog-sidebar-area rts-section-gap">
         <div className="container">
           <div className="row">
-            {/* Blog Content */}
             <div className="col-lg-8 order-lg-1 order-md-2 order-sm-2 order-2">
               <div className="blog-details-area-1">
                 <div className="thumbnail">
@@ -80,7 +79,6 @@ export default function Home() {
                     </div>
                   </div>
 
-                  {/* Author Info */}
                   <div className="blog-details-author">
                     <div className="thumbnail">
                       <img src="/assets/images/blog/01.png" alt="" />
@@ -169,7 +167,6 @@ export default function Home() {
               </div>
             </div>
 
-            {/* Sidebar */}
             <div className="col-lg-4 pl--60 order-lg-2 order-md-1 order-sm-1 order-1 pl_md--10 pl_sm--10 rts-sticky-column-item">
               <div className="blog-sidebar-single-wized">
                 <form action="#">

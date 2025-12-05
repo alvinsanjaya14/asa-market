@@ -1,5 +1,6 @@
 'use client';
 import React, { useState, useEffect } from 'react';
+import Link from 'next/link';
 import { useCart } from '@/components/header/CartContext';
 
 const CartMain = () => {
@@ -160,7 +161,9 @@ const CartMain = () => {
                   <h6 className="price">${finalTotal.toFixed(2)}</h6>
                 </div>
                 <div className="button-area">
-                  <button className="rts-btn btn-primary">Proceed To Checkout</button>
+                  <Link href="/checkout">
+                    <button className="rts-btn btn-primary">Proceed To Checkout</button>
+                  </Link>
                 </div>
               </div>
             </div>
