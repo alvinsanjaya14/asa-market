@@ -158,7 +158,7 @@ function FooterTwo() {
                             <div className="col-lg-12">
                                 <div className="copyright-arae-two-wrapper">
                                     <p className="disc">
-                                        Copyright 2025 <a href="#">©Ekomart</a>. All rights reserved.
+                                        Copyright 2025 <a href="#">©ASAMART</a>. All rights reserved.
                                     </p>
                                     <div className="payment-processw-area">
                                         <span>Payment Accepts:</span>
